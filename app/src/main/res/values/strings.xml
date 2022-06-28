@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">UMSTATIKA</string>
+
+    <string name="title_name">Struktur Statistika Tertentu</string>
+    <string name="subtitle_name">By TS-FT-UM Sumbar</string>
+    <string name="exit">Keluar Aplikasi</string>
+
+    <string name="about">Tentang Aplikasi</string>
+    <string name="about_desc">Aplikasi <font fgcolor='#F41313'>UM</font><font fgcolor='#EBA61F'>ST</font>ATIKA adalah aplikasi untuk penghitungan struktur statika tertentu dan dapat dijadikan referensi untuk melakukan penghitungan beban terpusat, beban merata dan beban segitiga.</string>
+    <string name="tim_pengembang">Tim Pengembang,</string>
+    <string name="tim">Chendra Amigo \nRyan Elvian Susandy \nSuci Lestari \nAde Putra Irawan \nHelga Yermadona, M.T. \nElfania Bastian, M.T</string>
+    <string name="kontak">Kontak,</string>
+    <string name="category">Kategori</string>
+    <string name="materi_berkaitan">Materi yang Berkaitan</string>
+    <string name="beban_terpusat">Beban Terpusat</string>
+    <string name="beban_merata">Beban Merata</string>
+    <string name="beban_segitiga">Beban Segitiga</string>
+    <string name="beban_terpusat_desc">Balok Ditas Dua Perletakan Memikul Sebuah Muatan Terpusat</string>
+    <string name="beban_merata_desc">Balok Ditas Dua Perletakan Memikul Muatan Terbagi Rata</string>
+    <string name="beban_segitiga_desc">Balok Ditas Dua Perletakan Memikul Muatan Segitiga</string>
+    <string name="hitung_momen">Hitung Momen</string>
+    <string name="diketahui">Diketahui</string>
+    <string name="hitung">Hitung</string>
+    <string name="reaksi">Reaksi</string>
+    <string name="kuantitas">Kuantitas</string>
+    <string name="satuan_ton">Satuan (Ton)</string>
+    <string name="gaya_lintang">Gaya Lintang</string>
+    <string name="tinjauan_tampang">Tinjauan Tampang x</string>
+    <string name="momen_maksimum">Momen Maksimum</string>
+    <string name="RAV">RAV</string>
+    <string name="RBV">RBV</string>
+    <string name="gaya_dalam">Gaya Dalam</string>
+    <string name="dab">D<sub>A-B</sub></string>
+    <string name="dba">D<sub>B-A</sub></string>
+    <string name="QX">QX</string>
+    <string name="MX">MX</string>
+    <string name="mmaks">Mmaks</string>
+    <string name="m_0">M(0)</string>
+    <string name="m_x">M(x)</string>
+    <string name="dac">D<sub>A-C</sub></string>
+    <string name="dca">D<sub>C-A</sub></string>
+    <string name="dcb">D<sub>C-B</sub></string>
+    <string name="dbc">D<sub>B-C</sub></string>
+    <string name="ton">Ton</string>
+    <string name="satuan">Satuan</string>
+</resources>
