@@ -30,6 +30,7 @@ class TheoryActivity : AppCompatActivity() {
             binding.pdfView.fromAsset("segitiga.pdf").load()
         }
 
+        binding.tvTitle.text = title.toString()
 
     }
 

@@ -27,12 +27,12 @@
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/tvTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="30dp"
-            android:textColor="@color/white"
+            android:textColor="@color/blue"
             android:textSize="18sp"
             android:textStyle="bold" />
 
