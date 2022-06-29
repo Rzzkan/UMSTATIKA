@@ -67,7 +67,8 @@ class TriangleActivity : AppCompatActivity() {
 
         qx = (q.toDouble()/2)*((x.toDouble()*x.toDouble())/l.toDouble())
         mx = (q.toDouble()*l.toDouble()*x.toDouble()/6) - (q.toDouble()/6)*((x.toDouble()*x.toDouble()*x.toDouble())/l.toDouble())
-        mmax = (1/27)*(q.toDouble())*(l.toDouble()*l.toDouble())*Math.cbrt(3.0)
+//        mmax = q.toDouble()*l.toDouble()*l.toDouble()*Math.cbrt(3.0)/27
+        mmax = q.toDouble()*l.toDouble()*l.toDouble()*Math.cbrt(3.0)*1/27
 
 //        showDialogResult(rav.toString(), rbv.toString(), dab.toString(), dba.toString(), qx.toString(), mx.toString(), mmax.toString())
         showDialogResult(df.format(rav).toString(), df.format(rbv).toString(), df.format(dab).toString(), df.format(dba).toString(), df.format(qx).toString(), df.format(mx).toString(), df.format(mmax).toString())
