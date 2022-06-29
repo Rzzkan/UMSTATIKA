@@ -57,7 +57,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:background="@color/blue"
                 android:orientation="horizontal">
 
@@ -65,6 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="Momen"
                     android:textAlignment="center"
@@ -75,6 +76,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/kuantitas"
                     android:textAlignment="center"
@@ -85,6 +87,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="Satuan"
                     android:textAlignment="center"
@@ -94,7 +97,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:background="@color/grey"
                 android:orientation="horizontal">
 
@@ -102,6 +105,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/m_0"
                     android:textAlignment="center"
@@ -113,6 +117,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -122,6 +127,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="Ton"
                     android:textAlignment="center"
@@ -131,7 +137,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:background="@color/grey"
                 android:orientation="horizontal">
 
@@ -139,6 +145,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/m_x"
                     android:textAlignment="center"
@@ -150,6 +157,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -159,6 +167,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="Ton"
                     android:textAlignment="center"

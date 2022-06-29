@@ -11,6 +11,7 @@ import com.rzzkan.umstatika.databinding.ActivityEquallyBinding
 import com.rzzkan.umstatika.databinding.DialogCenteredBinding
 import com.rzzkan.umstatika.databinding.DialogEquallyBinding
 import kotlinx.android.synthetic.main.dialog_centered.view.*
+import java.text.DecimalFormat
 import kotlin.math.absoluteValue
 
 class EquallyActivity : AppCompatActivity() {
@@ -49,16 +50,18 @@ class EquallyActivity : AppCompatActivity() {
         val q = binding.etBeban.text.toString()
         val l = binding.etPanjang.text.toString()
         val x = binding.etJarak.text.toString()
+        val df = DecimalFormat("#.##")
 
         var rav = (q.toDouble()/2)*l.toDouble()
         var rbv = rav
         var dab = rav
-        var dba = -rbv
+        var dba = (-rbv)
 
         var mx = (rav * x.toDouble()) - (q.toDouble()/2 * (x.toDouble()*x.toDouble()))
         var mmax = (q.toDouble()/8)*(l.toDouble() * l.toDouble())
 
-            showDialogResult(rav.toString(), rbv.toString(), dab.absoluteValue.toString(), dba.absoluteValue.toString(), mx.toString(), mmax.absoluteValue.toString() )
+//            showDialogResult(rav.toString(), rbv.toString(), dab.absoluteValue.toString(), dba.toString(), mx.toString(), mmax.absoluteValue.toString() )
+            showDialogResult(df.format(rav).toString(), df.format(rbv).toString(), df.format(dab.absoluteValue).toString(), df.format(dba).toString(),df.format(mx).toString(), df.format(mmax.absoluteValue).toString() )
     }
 
     private fun showDialogResult(rav:String, rbv:String, dab:String, dba:String, mx:String, mmax:String) {

@@ -11,6 +11,7 @@ import com.rzzkan.umstatika.databinding.ActivityCenteredBinding
 import com.rzzkan.umstatika.databinding.DialogCenteredBinding
 import kotlinx.android.synthetic.main.activity_centered.*
 import kotlinx.android.synthetic.main.dialog_centered.view.*
+import java.text.DecimalFormat
 
 class CenteredActivity : AppCompatActivity() {
     private lateinit var binding:ActivityCenteredBinding
@@ -80,6 +81,7 @@ class CenteredActivity : AppCompatActivity() {
         var dca = 0.0
         var dcb = 0.0
         var dbc = 0.0
+        val df = DecimalFormat("#.##")
 
         rav = p.toDouble() * c.toDouble()/l.toDouble()
         rbv = p.toDouble() * c.toDouble()/l.toDouble()
@@ -87,9 +89,10 @@ class CenteredActivity : AppCompatActivity() {
         dac = rav
         dca = dac
         dcb = dca - p.toDouble()
-        dbc = dcb - (-rbv)
+        dbc = -rbv
 
-        showDialogResult(rav.toString(), rbv.toString(), dca.toString(), dca.toString(), dcb.toString(), dbc.toString() )
+//        showDialogResult(rav.toString(), rbv.toString(), dca.toString(), dca.toString(), dcb.toString(), dbc.toString() )
+        showDialogResult(df.format(rav).toString(),df.format(rbv).toString(),df.format(dca).toString(),df.format(dca).toString(), df.format(dcb).toString(), df.format(dbc).toString() )
     }
 
 }

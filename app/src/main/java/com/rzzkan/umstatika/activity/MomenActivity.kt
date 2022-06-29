@@ -10,6 +10,7 @@ import com.rzzkan.umstatika.databinding.ActivityMomenBinding
 import com.rzzkan.umstatika.databinding.DialogCenteredBinding
 import com.rzzkan.umstatika.databinding.DialogMomenBinding
 import kotlinx.android.synthetic.main.dialog_centered.view.*
+import java.text.DecimalFormat
 
 class MomenActivity : AppCompatActivity() {
     private lateinit var binding:ActivityMomenBinding
@@ -30,15 +31,20 @@ class MomenActivity : AppCompatActivity() {
                 calculate()
             }
         }
+
+        binding.ibBack.setOnClickListener{
+            finish()
+        }
     }
 
     private fun calculate(){
         val rav = binding.etRav.text.toString()
         val x = binding.etJarak.text.toString()
+        val df = DecimalFormat("#.##")
 
-        var ma = rav.toDouble() * 0
-        var mx = rav.toDouble() * x.toDouble()
-        showDialogResult(ma.toString(), mx.toString())
+        var ma = 0
+        var mx = +rav.toDouble() * x.toDouble()
+        showDialogResult(df.format(ma).toString(), df.format(mx).toString())
     }
 
     private fun showDialogResult(m0:String, mx:String, ) {

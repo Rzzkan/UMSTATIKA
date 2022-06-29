@@ -12,6 +12,7 @@ import com.rzzkan.umstatika.databinding.DialogEquallyBinding
 import com.rzzkan.umstatika.databinding.DialogTriangleBinding
 import kotlinx.android.synthetic.main.activity_centered.*
 import kotlinx.android.synthetic.main.dialog_centered.view.*
+import java.text.DecimalFormat
 
 class TriangleActivity : AppCompatActivity() {
     private lateinit var binding:ActivityTriangleBinding
@@ -56,6 +57,7 @@ class TriangleActivity : AppCompatActivity() {
         var qx = 0.0
         var mx = 0.0
         var mmax = 0.0
+        val df = DecimalFormat("#.##")
 
         rav = (q.toDouble()/6)*l.toDouble()
         rbv = (q.toDouble()/3)*l.toDouble()
@@ -65,9 +67,10 @@ class TriangleActivity : AppCompatActivity() {
 
         qx = (q.toDouble()/2)*((x.toDouble()*x.toDouble())/l.toDouble())
         mx = (q.toDouble()*l.toDouble()*x.toDouble()/6) - (q.toDouble()/6)*((x.toDouble()*x.toDouble()*x.toDouble())/l.toDouble())
-        mmax = (q.toDouble()/27)*(l.toDouble()*l.toDouble())*Math.cbrt(3.0)
+        mmax = (1/27)*(q.toDouble())*(l.toDouble()*l.toDouble())*Math.cbrt(3.0)
 
-        showDialogResult(rav.toString(), rbv.toString(), dab.toString(), dba.toString(), qx.toString(), mx.toString(), mmax.toString())
+//        showDialogResult(rav.toString(), rbv.toString(), dab.toString(), dba.toString(), qx.toString(), mx.toString(), mmax.toString())
+        showDialogResult(df.format(rav).toString(), df.format(rbv).toString(), df.format(dab).toString(), df.format(dba).toString(), df.format(qx).toString(), df.format(mx).toString(), df.format(mmax).toString())
     }
 
     private fun showDialogResult(rav:String, rbv:String, dab:String, dba:String,qx:String, mx:String, mmax:String) {

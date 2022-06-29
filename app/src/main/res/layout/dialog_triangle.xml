@@ -57,7 +57,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:background="@color/blue"
                 android:orientation="horizontal">
 
@@ -65,6 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/reaksi"
                     android:textAlignment="center"
@@ -75,6 +76,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/kuantitas"
                     android:textAlignment="center"
@@ -85,6 +87,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/satuan_ton"
                     android:textAlignment="center"
@@ -94,7 +97,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:background="@color/grey"
                 android:orientation="horizontal">
 
@@ -102,6 +105,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/RAV"
                     android:textAlignment="center"
@@ -113,6 +117,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -122,6 +127,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/ton"
                     android:textAlignment="center"
@@ -131,7 +137,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:background="@color/grey"
                 android:orientation="horizontal">
 
@@ -139,6 +145,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/RBV"
                     android:textAlignment="center"
@@ -150,6 +157,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -159,6 +167,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/ton"
                     android:textAlignment="center"
@@ -169,7 +178,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@color/blue"
                 android:orientation="horizontal">
@@ -178,8 +187,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:text="@string/gaya_dalam"
+                    android:text="@string/gaya_lintang"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
@@ -188,6 +198,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/kuantitas"
                     android:textAlignment="center"
@@ -198,6 +209,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/satuan_ton"
                     android:textAlignment="center"
@@ -207,14 +219,15 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:background="@color/grey"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="30dp"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/dab"
                     android:textAlignment="center"
@@ -226,6 +239,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -235,6 +249,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/ton"
                     android:textAlignment="center"
@@ -244,14 +259,15 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:background="@color/grey"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="30dp"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/dba"
                     android:textAlignment="center"
@@ -263,6 +279,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -272,6 +289,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/ton"
                     android:textAlignment="center"
@@ -290,6 +308,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/tinjauan_tampang"
                     android:textAlignment="center"
@@ -300,6 +319,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/kuantitas"
                     android:textAlignment="center"
@@ -310,6 +330,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/satuan_ton"
                     android:textAlignment="center"
@@ -319,7 +340,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:background="@color/grey"
                 android:orientation="horizontal">
 
@@ -327,6 +348,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/QX"
                     android:textAlignment="center"
@@ -338,6 +360,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -347,6 +370,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/ton"
                     android:textAlignment="center"
@@ -356,7 +380,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:background="@color/grey"
                 android:orientation="horizontal">
 
@@ -364,6 +388,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/MX"
                     android:textAlignment="center"
@@ -375,6 +400,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -384,6 +410,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/ton"
                     android:textAlignment="center"
@@ -393,7 +420,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@color/blue"
                 android:orientation="horizontal">
@@ -402,6 +429,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/momen_maksimum"
                     android:textAlignment="center"
@@ -412,6 +440,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/kuantitas"
                     android:textAlignment="center"
@@ -422,6 +451,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/satuan_ton"
                     android:textAlignment="center"
@@ -431,7 +461,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:background="@color/grey"
                 android:orientation="horizontal">
 
@@ -439,6 +469,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/mmaks"
                     android:textAlignment="center"
@@ -450,6 +481,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -459,6 +491,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/ton"
                     android:textAlignment="center"
